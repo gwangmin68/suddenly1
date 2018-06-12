@@ -6,6 +6,18 @@ module.exports = {
     '꼬북칩' : '%xEA%xBC%xAC%xEB%xB6%x81%xEC%xB9%xA9',
     '쫄병' : '%xEC%xAB%x84%xEB%xB3%x91',
     '뿌셔뿌셔' : '%xEB%xBF%x8C%xEC%x85%x94%xEB%xBF%x8C%xEC%x85%x94',
-    '프링글스' : '%xED%x94%x84%xEB%xA7%x81%xEA%xB8%x80%xEC%x8A%xA4'
+    '프링글스' : '%xED%x94%x84%xEB%xA7%x81%xEA%xB8%x80%xEC%x8A%xA4',
+    '마이구미' : '%xEB%xA7%x88%xEC%x9D%xB4%xEA%xB5%xAC%xEB%xAF%xB8',
+    '오레오' : '%xEC%x98%xA4%xEB%xA0%x88%xEC%x98%xA4',
+    '홈런볼' : '%xED%x99%x88%xEB%x9F%xB0%xEB%xB3%xBC',
+    '초코파이' : '%xEC%xB4%x88%xEC%xBD%x94%xED%x8C%x8C%xEC%x9D%xB4',
+    '허니버터칩' : '%xED%x97%x88%xEB%x8B%x88%xEB%xB2%x84%xED%x84%xB0%xEC%xB9%xA9',
+    '카스타드' : '%xEC%xB9%xB4%xEC%x8A%xA4%xED%x83%x80%xEB%x93%x9C',
+    '눈을감자' : '%xEB%x88%x88%xEC%x9D%x84%xEA%xB0%x90%xEC%x9E%x90',
+    '양파링' : '%xEC%x96%x91%xED%x8C%x8C%xEB%xA7%x81',
+    '바나나킥' : '%xEB%xB0%x94%xEB%x82%x98%xEB%x82%x98%xED%x82%xA5',
+    '죠리퐁' : '%xEC%xA3%xA0%xEB%xA6%xAC%xED%x90%x81',
+    '오예스' : '%xEC%x98%xA4%xEC%x98%x88%xEC%x8A%xA4',
+    '칸쵸' : '%xEC%xB9%xB8%xEC%xB5%xB8',
 
 };
