@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WindowsFormsApp1
 {
@@ -16,20 +17,20 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
-
-        private void button1_Click(object sender, System.Windows.Forms.ItemCheckEventArgs e)
+        String path = @".WindowsFormsApp1\Resources\List.txt";
+        private void btn_submit_Click(object sender, EventArgs e)
         {
             if (listView1.CheckedItems.Count != 0)
             {
-                // If so, loop through all checked items and print results.  
-                string s = "";
+                StreamWriter sw = File.CreateText(path);
+                
                 for (int x = 0; x <= listView1.CheckedItems.Count - 1; x++)
                 {
-                    s = s + "Checked Item " + (x + 1).ToString() + " = " + listView1.CheckedItems[x].ToString() + "\n";
+                    sw.WriteLine(listView1.CheckedItems.ToString());
                 }
-                MessageBox.Show(s);
             }
         }
+
+    
     }
 }
