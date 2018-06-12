@@ -44,8 +44,8 @@
             this.b_list = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.bOrder = new System.Windows.Forms.Button();
+            this.CartCheck = new System.Windows.Forms.CheckedListBox();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -212,37 +212,37 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // bOrder
             // 
-            this.button2.BackColor = System.Drawing.Color.RosyBrown;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Bebas Neue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(811, 541);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 31);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Order";
-            this.button2.UseVisualStyleBackColor = false;
+            this.bOrder.BackColor = System.Drawing.Color.RosyBrown;
+            this.bOrder.FlatAppearance.BorderSize = 0;
+            this.bOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bOrder.Font = new System.Drawing.Font("Bebas Neue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bOrder.Location = new System.Drawing.Point(811, 541);
+            this.bOrder.Name = "bOrder";
+            this.bOrder.Size = new System.Drawing.Size(88, 31);
+            this.bOrder.TabIndex = 4;
+            this.bOrder.Text = "Order";
+            this.bOrder.UseVisualStyleBackColor = false;
             // 
-            // checkedListBox1
+            // CartCheck
             // 
-            this.checkedListBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox1.Font = new System.Drawing.Font("나눔스퀘어OTF", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(122, 195);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(693, 288);
-            this.checkedListBox1.TabIndex = 13;
+            this.CartCheck.BackColor = System.Drawing.SystemColors.Menu;
+            this.CartCheck.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CartCheck.Font = new System.Drawing.Font("나눔스퀘어OTF", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.CartCheck.FormattingEnabled = true;
+            this.CartCheck.Location = new System.Drawing.Point(122, 195);
+            this.CartCheck.Name = "CartCheck";
+            this.CartCheck.Size = new System.Drawing.Size(693, 288);
+            this.CartCheck.TabIndex = 13;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(936, 589);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.CartCheck);
+            this.Controls.Add(this.bOrder);
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -274,7 +274,7 @@
         private System.Windows.Forms.Button b_list;
         private System.Windows.Forms.Panel Logo;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Button bOrder;
+        private System.Windows.Forms.CheckedListBox CartCheck;
     }
 }
