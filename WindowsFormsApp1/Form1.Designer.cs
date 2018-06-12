@@ -104,7 +104,7 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.BackColor = System.Drawing.Color.RosyBrown;
-            flowLayoutPanel1.Location = new System.Drawing.Point(562, 19);
+            flowLayoutPanel1.Location = new System.Drawing.Point(569, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new System.Drawing.Size(84, 15);
             flowLayoutPanel1.TabIndex = 4;
@@ -114,6 +114,7 @@
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel3.Controls.Add(this.btn_search);
             this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(flowLayoutPanel1);
             this.panel3.Controls.Add(this.b_order);
             this.panel3.Controls.Add(this.b_like);
             this.panel3.Controls.Add(this.b_cart);
@@ -129,7 +130,7 @@
             this.btn_search.FlatAppearance.BorderSize = 0;
             this.btn_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_search.Image = ((System.Drawing.Image)(resources.GetObject("btn_search.Image")));
-            this.btn_search.Location = new System.Drawing.Point(507, 28);
+            this.btn_search.Location = new System.Drawing.Point(516, 26);
             this.btn_search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(22, 20);
@@ -139,7 +140,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(372, 28);
+            this.textBox1.Location = new System.Drawing.Point(381, 26);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(127, 21);
             this.textBox1.TabIndex = 8;
@@ -153,7 +154,7 @@
             this.b_order.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_order.Image = ((System.Drawing.Image)(resources.GetObject("b_order.Image")));
             this.b_order.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.b_order.Location = new System.Drawing.Point(834, 5);
+            this.b_order.Location = new System.Drawing.Point(843, 3);
             this.b_order.Name = "b_order";
             this.b_order.Size = new System.Drawing.Size(85, 67);
             this.b_order.TabIndex = 7;
@@ -169,7 +170,7 @@
             this.b_like.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_like.Image = ((System.Drawing.Image)(resources.GetObject("b_like.Image")));
             this.b_like.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.b_like.Location = new System.Drawing.Point(743, 5);
+            this.b_like.Location = new System.Drawing.Point(752, 3);
             this.b_like.Name = "b_like";
             this.b_like.Size = new System.Drawing.Size(85, 67);
             this.b_like.TabIndex = 6;
@@ -184,7 +185,7 @@
             this.b_cart.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_cart.Image = ((System.Drawing.Image)(resources.GetObject("b_cart.Image")));
             this.b_cart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.b_cart.Location = new System.Drawing.Point(652, 5);
+            this.b_cart.Location = new System.Drawing.Point(661, 3);
             this.b_cart.Name = "b_cart";
             this.b_cart.Size = new System.Drawing.Size(85, 67);
             this.b_cart.TabIndex = 5;
@@ -199,7 +200,7 @@
             this.b_list.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_list.Image = ((System.Drawing.Image)(resources.GetObject("b_list.Image")));
             this.b_list.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.b_list.Location = new System.Drawing.Point(561, 5);
+            this.b_list.Location = new System.Drawing.Point(570, 3);
             this.b_list.Name = "b_list";
             this.b_list.Size = new System.Drawing.Size(85, 67);
             this.b_list.TabIndex = 4;
@@ -524,7 +525,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 31);
             this.button2.TabIndex = 51;
-            this.button2.Text = "ORDER";
+            this.button2.Text = "Cart";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -541,7 +542,7 @@
             this.button1.BackColor = System.Drawing.Color.RosyBrown;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(910, 2);
+            this.button1.Location = new System.Drawing.Point(915, 1);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(21, 18);
@@ -597,7 +598,6 @@
             this.Controls.Add(this.꼬깔콘갯수);
             this.Controls.Add(this.꼬깔콘);
             this.Controls.Add(this.꼬깔콘사진);
-            this.Controls.Add(flowLayoutPanel1);
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);

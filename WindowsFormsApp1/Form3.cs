@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
             {
                 result += (int)intarr[i];
             }
-            resultlabel.Text = "" + result + "원";
+            resultLabel.Text = "" + result + "원";
             
 
         }
@@ -49,16 +49,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<string> list = new List<string>();
-            foreach (string items in checkedListBox1.CheckedItems)
-            {
-                list.Add(items);
-            }
-            foreach(string i in list)
-            {
-                checkedListBox1.Items.Remove(i);
-                
-            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -66,15 +57,40 @@ namespace WindowsFormsApp1
             this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
             StreamWriter sw = File.CreateText(@".\List.txt");
-            foreach(var item in checkedListBox1.Items)
+            foreach (var item in checkedListBox1.Items)
             {
                 sw.WriteLine($"<data>{item}</data>");
             }
             sw.Close();
-            
+            MessageBox.Show("주문목록에 추가되었습니다.");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            List<string> list = new List<string>();
+            foreach (string items in checkedListBox1.CheckedItems)
+            {
+                list.Add(items);
+            }
+            foreach (string i in list)
+            {
+                checkedListBox1.Items.Remove(i);
+
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

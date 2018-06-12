@@ -48,12 +48,6 @@ namespace WindowsFormsApp1
                             link = item.link;
                             imagelink = item.image;
                             title = item.title;
-                            //sw.WriteLine("<item>" +
-                            //             $"<name>${item.title}</name>\n" +
-                            //             $"<link>${item.link}</link>\n" +
-                            //             $"<image>${item.image}</image>\n" +
-                            //             $"<price>${item.lprice}</price>\n" +
-                            //             "</item>\n");
                         }
                        
                     }
@@ -61,13 +55,11 @@ namespace WindowsFormsApp1
                     using (var imgresponse = imgrequest.GetResponse())
                     using (var stream = imgresponse.GetResponseStream())
                     {
-                        imageList1.Images.Add(Image.FromStream(stream));
-                        var item1 = new ListViewItem();
-                        item1.ImageIndex = 0;
-                       
-                        item1.Text = title;
-                        listView1.Items.Add(item1);
-                        listView1.MouseClick += new MouseEventHandler((object Handler, MouseEventArgs args) =>
+                        pictureBox2.Image=(Image.FromStream(stream));
+
+                        name.Text = title;
+                        lowprice.Text = "" + i;
+                        pictureBox2.MouseClick += new MouseEventHandler((object Handler, MouseEventArgs args) =>
                         {
 
                             System.Diagnostics.Process.Start(link);
@@ -88,33 +80,38 @@ namespace WindowsFormsApp1
             Search(search);
 
         }
-
-        string s = "";
-        private void button1_Click(object sender, System.Windows.Forms.ItemCheckEventArgs e)
-        {
-            if (listView1.CheckedItems.Count != 0)
-            {
-                // If so, loop through all checked items and print results.  
-                
-                for (int x = 0; x <= listView1.CheckedItems.Count - 1; x++)
-                {
-                    s = s + "Checked Item " + (x + 1).ToString() + " = " + listView1.CheckedItems[x].ToString() + "\n";
-                }
-            }
-        }
         
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            foreach(ListViewItem item in listView1.CheckedItems)
-            {
-                listView1.Items.Remove(item); 
-            }
-        }
+        
+        
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_search_Click(object sender, EventArgs e)
+        {
+            Search(textBox1.Text);
+
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Search(textBox1.Text);
+            }
+        }
+
+        private void bOrder_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
