@@ -40,8 +40,8 @@
             this.b_cart = new System.Windows.Forms.Button();
             this.b_list = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.Panel();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -166,6 +166,7 @@
             this.b_list.TabIndex = 4;
             this.b_list.Text = "Rank";
             this.b_list.UseVisualStyleBackColor = true;
+            this.b_list.Click += new System.EventHandler(this.b_list_Click);
             // 
             // Logo
             // 
@@ -176,13 +177,6 @@
             this.Logo.Size = new System.Drawing.Size(130, 118);
             this.Logo.TabIndex = 2;
             // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(919, 94);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(17, 494);
-            this.vScrollBar1.TabIndex = 3;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -191,6 +185,13 @@
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(919, 94);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(17, 494);
+            this.vScrollBar1.TabIndex = 3;
             // 
             // Form1
             // 
