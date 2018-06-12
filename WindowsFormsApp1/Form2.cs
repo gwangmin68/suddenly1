@@ -57,10 +57,15 @@ namespace WindowsFormsApp1
                     {
                         imageList1.Images.Add(Image.FromStream(stream));
                         var item1 = new ListViewItem();
-                        item1.ImageIndex = imageList1.Images.Count-1;
+                        item1.ImageIndex = 0;
+                       
                         item1.Text = title;
                         listView1.Items.Add(item1);
+                        listView1.MouseClick += new MouseEventHandler((object Handler, MouseEventArgs args) =>
+                        {
 
+                            System.Diagnostics.Process.Start(link);
+                        });
                     }
                 }
             }
@@ -89,63 +94,9 @@ namespace WindowsFormsApp1
                 {
                     s = s + "Checked Item " + (x + 1).ToString() + " = " + listView1.CheckedItems[x].ToString() + "\n";
                 }
-                MessageBox.Show(s);
             }
         }
         
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var client = new RestClient("http://192.168.1.76/NAVER");
-            var request = new RestRequest("", Method.GET);
-
-            string line;
-
-            // Read the file and display it line by line.  
-            System.IO.StreamReader file =
-                new System.IO.StreamReader(@".\List.txt");
-            while ((line = file.ReadLine()) != null)
-            {
-                line = line.Substring(15, line.Length - 16);
-                Console.WriteLine(line);
-            }
-
-            file.Close();
-
-            IRestResponse<Snack> response = client.Execute<Snack>(request);
-            var data = response.Data;
-            int i = 9999999;
-            string link = null;
-            string imagelink = null;
-            if (data != null)
-            {
-                foreach (var item in data.items)
-                {
-                    if (int.Parse(item.lprice) < i)
-                    {
-                        i = int.Parse(item.lprice);
-                        link = item.link;
-                        imagelink = item.image;
-                    }
-
-                    //    Debug.WriteLine(item.title);
-                }
-            }
-
-            var imgReq = WebRequest.Create(imagelink);
-
-            using (var imgResp = imgReq.GetResponse())
-            using (var stream = imgResp.GetResponseStream())
-            {
-                imageList1.Images.Add(Image.FromStream(stream));
-                var item = new ListViewItem();
-                item.ImageIndex = imageList1.Images.Count - 1;
-                item.Text = "dkdkd";
-                listView1.Items.Add(item);
-            }
-
-            //MessageBox.Show(i.ToString());
-            //MessageBox.Show(link);
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
