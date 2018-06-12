@@ -28,7 +28,7 @@ module.exports = {
                     'X-Naver-Client-Id': '6_URPDXcfUAsiCSAJLqb',
                     'X-Naver-Client-Secret': 'kjWpzg2lk2'
                 },
-                url: NAVER_find_snack('포카칩', 10),
+                url: NAVER_find_snack(query, 10),
                 body: null,
 
             };
