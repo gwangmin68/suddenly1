@@ -226,5 +226,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void b_order_Click(object sender, EventArgs e)
+        {
+            new Form4().ShowDialog();
+        }
     }
 }

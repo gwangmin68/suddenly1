@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,6 +64,17 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            StreamWriter sw = File.CreateText(@".\List.txt");
+            foreach(var item in checkedListBox1.Items)
+            {
+                sw.WriteLine($"<data>{item}</data>");
+            }
+            sw.Close();
+            
         }
     }
 }

@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
     {
         public void Search(string str)
         {
-            StreamWriter sw = File.CreateText(@".\List.txt");
+            
             string sname = str;
             var client = new RestClient("http://192.168.1.76/NAVER");
             var request = new RestRequest(sname, Method.GET);
@@ -48,12 +48,12 @@ namespace WindowsFormsApp1
                             link = item.link;
                             imagelink = item.image;
                             title = item.title;
-                            sw.WriteLine("<item>" +
-                                         $"<name>${item.title}</name>\n" +
-                                         $"<link>${item.link}</link>\n" +
-                                         $"<image>${item.image}</image>\n" +
-                                         $"<price>${item.lprice}</price>\n" +
-                                         "</item>\n");
+                            //sw.WriteLine("<item>" +
+                            //             $"<name>${item.title}</name>\n" +
+                            //             $"<link>${item.link}</link>\n" +
+                            //             $"<image>${item.image}</image>\n" +
+                            //             $"<price>${item.lprice}</price>\n" +
+                            //             "</item>\n");
                         }
                        
                     }
@@ -80,7 +80,7 @@ namespace WindowsFormsApp1
                 MessageBox.Show(response.ErrorMessage);
             }
 
-            sw.Close();
+           
         }
         public Form2(string search)
         {
