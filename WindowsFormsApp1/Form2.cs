@@ -29,6 +29,12 @@ namespace WindowsFormsApp1
             {
 
                 var data = response.Data;
+                if(data.total == 0)
+                {
+                    MessageBox.Show("검색 결과가 없습니다.");
+                 
+                    return;
+                }
                 int i = 9999999;
                 string link = null;
                 string imagelink = null, title=null;
