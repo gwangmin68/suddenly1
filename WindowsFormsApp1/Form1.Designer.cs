@@ -28,13 +28,174 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.b_order = new System.Windows.Forms.Button();
+            this.b_like = new System.Windows.Forms.Button();
+            this.b_cart = new System.Windows.Forms.Button();
+            this.b_list = new System.Windows.Forms.Button();
+            this.Logo = new System.Windows.Forms.Panel();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(936, 21);
+            this.panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(0, 23);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(931, 97);
+            this.panel2.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.b_order);
+            this.panel3.Controls.Add(this.b_like);
+            this.panel3.Controls.Add(this.b_cart);
+            this.panel3.Controls.Add(this.b_list);
+            this.panel3.Location = new System.Drawing.Point(0, 19);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(936, 74);
+            this.panel3.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(370, 26);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(127, 21);
+            this.textBox1.TabIndex = 8;
+            // 
+            // b_order
+            // 
+            this.b_order.FlatAppearance.BorderSize = 0;
+            this.b_order.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_order.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_order.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.b_order.Location = new System.Drawing.Point(838, 5);
+            this.b_order.Name = "b_order";
+            this.b_order.Size = new System.Drawing.Size(95, 67);
+            this.b_order.TabIndex = 7;
+            this.b_order.Text = "Order";
+            this.b_order.UseVisualStyleBackColor = true;
+            // 
+            // b_like
+            // 
+            this.b_like.FlatAppearance.BorderSize = 0;
+            this.b_like.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_like.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_like.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.b_like.Image = ((System.Drawing.Image)(resources.GetObject("b_like.Image")));
+            this.b_like.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.b_like.Location = new System.Drawing.Point(737, 5);
+            this.b_like.Name = "b_like";
+            this.b_like.Size = new System.Drawing.Size(95, 67);
+            this.b_like.TabIndex = 6;
+            this.b_like.Text = "Like";
+            this.b_like.UseVisualStyleBackColor = true;
+            // 
+            // b_cart
+            // 
+            this.b_cart.FlatAppearance.BorderSize = 0;
+            this.b_cart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_cart.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_cart.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.b_cart.Image = ((System.Drawing.Image)(resources.GetObject("b_cart.Image")));
+            this.b_cart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.b_cart.Location = new System.Drawing.Point(636, 5);
+            this.b_cart.Name = "b_cart";
+            this.b_cart.Size = new System.Drawing.Size(95, 67);
+            this.b_cart.TabIndex = 5;
+            this.b_cart.Text = "Cart";
+            this.b_cart.UseVisualStyleBackColor = true;
+            // 
+            // b_list
+            // 
+            this.b_list.FlatAppearance.BorderSize = 0;
+            this.b_list.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_list.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_list.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.b_list.Location = new System.Drawing.Point(535, 5);
+            this.b_list.Name = "b_list";
+            this.b_list.Size = new System.Drawing.Size(95, 67);
+            this.b_list.TabIndex = 4;
+            this.b_list.Text = "Rank";
+            this.b_list.UseVisualStyleBackColor = true;
+            // 
+            // Logo
+            // 
+            this.Logo.BackColor = System.Drawing.SystemColors.Desktop;
+            this.Logo.Location = new System.Drawing.Point(46, 19);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(130, 118);
+            this.Logo.TabIndex = 2;
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(919, 94);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(17, 494);
+            this.vScrollBar1.TabIndex = 3;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(936, 589);
+            this.Controls.Add(this.vScrollBar1);
+            this.Controls.Add(this.Logo);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button b_order;
+        private System.Windows.Forms.Button b_like;
+        private System.Windows.Forms.Button b_cart;
+        private System.Windows.Forms.Button b_list;
+        private System.Windows.Forms.Panel Logo;
+        private System.Windows.Forms.VScrollBar vScrollBar1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
