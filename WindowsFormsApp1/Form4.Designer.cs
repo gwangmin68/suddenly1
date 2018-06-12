@@ -44,6 +44,7 @@
             this.b_list = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.OrderList = new System.Windows.Forms.ListBox();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -210,11 +211,24 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // OrderList
+            // 
+            this.OrderList.BackColor = System.Drawing.SystemColors.Menu;
+            this.OrderList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.OrderList.Font = new System.Drawing.Font("나눔스퀘어OTF", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.OrderList.FormattingEnabled = true;
+            this.OrderList.ItemHeight = 18;
+            this.OrderList.Location = new System.Drawing.Point(122, 216);
+            this.OrderList.Name = "OrderList";
+            this.OrderList.Size = new System.Drawing.Size(693, 288);
+            this.OrderList.TabIndex = 11;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(936, 589);
+            this.Controls.Add(this.OrderList);
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -246,5 +260,6 @@
         private System.Windows.Forms.Button b_list;
         private System.Windows.Forms.Panel Logo;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ListBox OrderList;
     }
 }
