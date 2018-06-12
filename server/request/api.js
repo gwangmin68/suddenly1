@@ -4,10 +4,10 @@ var qs = require('querystring');
 function statusCodeErrorHandler(statusCode, callback, data) {
     switch (statusCode) {
         case 200:
-            callback(null, data);
+            callback(null, data.replace(/<(\/)?([a-zA-Z]*)(\s[a-zA-Z]*=[^>]*)?(\s)*(\/)?>/ig, ""));
             break;
         default:
-            callback('error', data);
+            callback('error', data.replace(/<(\/)?([a-zA-Z]*)(\s[a-zA-Z]*=[^>]*)?(\s)*(\/)?>/ig, ""));
             break;
     }
 }
