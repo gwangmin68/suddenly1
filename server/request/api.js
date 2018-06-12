@@ -1,6 +1,6 @@
 var request = require('request');
 var utf8 = require('utf8');
-var snacks = require('./snacks');
+var qs = require('querystring');
 function statusCodeErrorHandler(statusCode, callback, data) {
     switch (statusCode) {
         case 200:
@@ -12,10 +12,7 @@ function statusCodeErrorHandler(statusCode, callback, data) {
     }
 }
 function NAVER_find_snack(snack, count){
-    if (snacks[snack] == null){
-        return null;
-    }
-    return 'https://openapi.naver.com/v1/search/shop.json?query=' + snacks[snack] + '&display=' + count;
+    return 'https://openapi.naver.com/v1/search/shop.json?query=' + qs.escape(snack) + '&display=' + count;
 }
 
 module.exports = {
@@ -34,11 +31,12 @@ module.exports = {
             };
         }
         else if(method == ''){
-
+            
         }
         if (options.url == null){
-            callback(err, 'snack not exiets');
+            return callback(null, 'snack not exists');
         }
+        console.log(options.url);
         request.get(options, function (err, res, result) {
             if (err) {
                 console.log(err);
