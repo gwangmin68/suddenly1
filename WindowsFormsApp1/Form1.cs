@@ -100,12 +100,19 @@ namespace WindowsFormsApp1
             string 콘칩링크 = link;
             콘칩사진.MouseClick += new MouseEventHandler((object sendler, MouseEventArgs error) =>
             {
+                System.Diagnostics.Process.Start(콘칩링크);
 
 
 
             }); 썬칩.Text = "" + (getminprice("썬칩")) + "원";
 
-            System.Diagnostics.Process.Start(콘칩링크);
+            string 썬칩링크 = null;
+
+            썬칩사진.MouseClick += new MouseEventHandler((object sendler, MouseEventArgs error) =>
+            {
+
+                System.Diagnostics.Process.Start(썬칩링크);
+            });
 
             콘초.Text = "" + (getminprice("콘초")) + "원";
 
@@ -125,7 +132,7 @@ namespace WindowsFormsApp1
                 System.Diagnostics.Process.Start(오감자링크);
             });
 
-            허니버터칩.Text = "" + getminprice("허니버터칩") + "원";
+            허니버터칩.Text = "" + getminprice("허니버터칩") + "원"; 
 
             string 허니버터칩링크 = link;
             허니버터칩사진.MouseClick += new MouseEventHandler((object sendler, MouseEventArgs error) =>
