@@ -3,8 +3,8 @@ var api = require('./request/api');
 var app = express();
 
 
-app.get('/', function(req, res){
-    api.api_get(null, "포카칩", function(err, result){
+app.get('/:name', function(req, res){
+    api.api_get('NAVER', req.params.name, function(err, result){
         res.send(result);
     });
 });
