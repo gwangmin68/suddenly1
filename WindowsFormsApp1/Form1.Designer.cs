@@ -150,7 +150,7 @@
             // 
             this.b_order.FlatAppearance.BorderSize = 0;
             this.b_order.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_order.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_order.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_order.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_order.Image = ((System.Drawing.Image)(resources.GetObject("b_order.Image")));
             this.b_order.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -166,7 +166,7 @@
             // 
             this.b_like.FlatAppearance.BorderSize = 0;
             this.b_like.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_like.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_like.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_like.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_like.Image = ((System.Drawing.Image)(resources.GetObject("b_like.Image")));
             this.b_like.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -182,7 +182,7 @@
             // 
             this.b_cart.FlatAppearance.BorderSize = 0;
             this.b_cart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_cart.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_cart.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_cart.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_cart.Image = ((System.Drawing.Image)(resources.GetObject("b_cart.Image")));
             this.b_cart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -197,7 +197,7 @@
             // 
             this.b_list.FlatAppearance.BorderSize = 0;
             this.b_list.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_list.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_list.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_list.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_list.Image = ((System.Drawing.Image)(resources.GetObject("b_list.Image")));
             this.b_list.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -230,10 +230,10 @@
             // 
             this.꼬깔콘.AutoSize = true;
             this.꼬깔콘.Cursor = System.Windows.Forms.Cursors.Default;
-            this.꼬깔콘.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.꼬깔콘.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.꼬깔콘.Location = new System.Drawing.Point(92, 267);
             this.꼬깔콘.Name = "꼬깔콘";
-            this.꼬깔콘.Size = new System.Drawing.Size(41, 16);
+            this.꼬깔콘.Size = new System.Drawing.Size(43, 14);
             this.꼬깔콘.TabIndex = 6;
             this.꼬깔콘.Text = "꼬깔콘";
             this.꼬깔콘.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -257,10 +257,10 @@
             // 새우깡
             // 
             this.새우깡.AutoSize = true;
-            this.새우깡.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.새우깡.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.새우깡.Location = new System.Drawing.Point(265, 267);
             this.새우깡.Name = "새우깡";
-            this.새우깡.Size = new System.Drawing.Size(41, 16);
+            this.새우깡.Size = new System.Drawing.Size(43, 14);
             this.새우깡.TabIndex = 14;
             this.새우깡.Text = "새우깡";
             this.새우깡.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -277,10 +277,10 @@
             // 포카칩
             // 
             this.포카칩.AutoSize = true;
-            this.포카칩.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.포카칩.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.포카칩.Location = new System.Drawing.Point(437, 267);
             this.포카칩.Name = "포카칩";
-            this.포카칩.Size = new System.Drawing.Size(41, 16);
+            this.포카칩.Size = new System.Drawing.Size(43, 14);
             this.포카칩.TabIndex = 18;
             this.포카칩.Text = "포카칩";
             this.포카칩.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -297,10 +297,10 @@
             // 치토스
             // 
             this.치토스.AutoSize = true;
-            this.치토스.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.치토스.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.치토스.Location = new System.Drawing.Point(610, 267);
             this.치토스.Name = "치토스";
-            this.치토스.Size = new System.Drawing.Size(41, 16);
+            this.치토스.Size = new System.Drawing.Size(43, 14);
             this.치토스.TabIndex = 22;
             this.치토스.Text = "치토스";
             this.치토스.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -316,10 +316,10 @@
             // 프링글스
             // 
             this.프링글스.AutoSize = true;
-            this.프링글스.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.프링글스.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.프링글스.Location = new System.Drawing.Point(775, 267);
             this.프링글스.Name = "프링글스";
-            this.프링글스.Size = new System.Drawing.Size(52, 16);
+            this.프링글스.Size = new System.Drawing.Size(55, 14);
             this.프링글스.TabIndex = 26;
             this.프링글스.Text = "프링글스";
             this.프링글스.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -335,10 +335,10 @@
             // 콘칩
             // 
             this.콘칩.AutoSize = true;
-            this.콘칩.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.콘칩.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.콘칩.Location = new System.Drawing.Point(96, 474);
             this.콘칩.Name = "콘칩";
-            this.콘칩.Size = new System.Drawing.Size(30, 16);
+            this.콘칩.Size = new System.Drawing.Size(31, 14);
             this.콘칩.TabIndex = 30;
             this.콘칩.Text = "콘칩";
             this.콘칩.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -354,10 +354,10 @@
             // 허니버터칩
             // 
             this.허니버터칩.AutoSize = true;
-            this.허니버터칩.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.허니버터칩.Location = new System.Drawing.Point(254, 474);
+            this.허니버터칩.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.허니버터칩.Location = new System.Drawing.Point(253, 474);
             this.허니버터칩.Name = "허니버터칩";
-            this.허니버터칩.Size = new System.Drawing.Size(63, 16);
+            this.허니버터칩.Size = new System.Drawing.Size(67, 14);
             this.허니버터칩.TabIndex = 34;
             this.허니버터칩.Text = "허니버터칩";
             this.허니버터칩.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -373,10 +373,10 @@
             // 썬칩
             // 
             this.썬칩.AutoSize = true;
-            this.썬칩.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.썬칩.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.썬칩.Location = new System.Drawing.Point(443, 474);
             this.썬칩.Name = "썬칩";
-            this.썬칩.Size = new System.Drawing.Size(30, 16);
+            this.썬칩.Size = new System.Drawing.Size(31, 14);
             this.썬칩.TabIndex = 38;
             this.썬칩.Text = "썬칩";
             this.썬칩.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -392,10 +392,10 @@
             // 오감자
             // 
             this.오감자.AutoSize = true;
-            this.오감자.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.오감자.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.오감자.Location = new System.Drawing.Point(610, 474);
             this.오감자.Name = "오감자";
-            this.오감자.Size = new System.Drawing.Size(41, 16);
+            this.오감자.Size = new System.Drawing.Size(43, 14);
             this.오감자.TabIndex = 42;
             this.오감자.Text = "오감자";
             this.오감자.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -411,10 +411,10 @@
             // 콘초
             // 
             this.콘초.AutoSize = true;
-            this.콘초.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.콘초.Font = new System.Drawing.Font("나눔스퀘어OTF", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.콘초.Location = new System.Drawing.Point(790, 474);
             this.콘초.Name = "콘초";
-            this.콘초.Size = new System.Drawing.Size(30, 16);
+            this.콘초.Size = new System.Drawing.Size(31, 14);
             this.콘초.TabIndex = 46;
             this.콘초.Text = "콘초";
             this.콘초.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -519,14 +519,14 @@
             this.button2.BackColor = System.Drawing.Color.RosyBrown;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("나눔스퀘어OTF", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button2.Location = new System.Drawing.Point(811, 541);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 31);
             this.button2.TabIndex = 51;
-            this.button2.Text = "Cart";
+            this.button2.Text = "장바구니";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

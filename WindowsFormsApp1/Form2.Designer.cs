@@ -144,7 +144,7 @@
             // 
             this.b_order.FlatAppearance.BorderSize = 0;
             this.b_order.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_order.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_order.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_order.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_order.Image = ((System.Drawing.Image)(resources.GetObject("b_order.Image")));
             this.b_order.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,7 +159,7 @@
             // 
             this.b_like.FlatAppearance.BorderSize = 0;
             this.b_like.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_like.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_like.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_like.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_like.Image = ((System.Drawing.Image)(resources.GetObject("b_like.Image")));
             this.b_like.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -174,7 +174,7 @@
             // 
             this.b_cart.FlatAppearance.BorderSize = 0;
             this.b_cart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_cart.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_cart.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_cart.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_cart.Image = ((System.Drawing.Image)(resources.GetObject("b_cart.Image")));
             this.b_cart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -189,7 +189,7 @@
             // 
             this.b_list.FlatAppearance.BorderSize = 0;
             this.b_list.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_list.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_list.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_list.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_list.Image = ((System.Drawing.Image)(resources.GetObject("b_list.Image")));
             this.b_list.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -223,21 +223,21 @@
             this.bOrder.BackColor = System.Drawing.Color.RosyBrown;
             this.bOrder.FlatAppearance.BorderSize = 0;
             this.bOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bOrder.Font = new System.Drawing.Font("나눔스퀘어OTF", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bOrder.Location = new System.Drawing.Point(811, 541);
             this.bOrder.Name = "bOrder";
             this.bOrder.Size = new System.Drawing.Size(88, 31);
             this.bOrder.TabIndex = 4;
-            this.bOrder.Text = "Order";
+            this.bOrder.Text = "주문";
             this.bOrder.UseVisualStyleBackColor = false;
             this.bOrder.Click += new System.EventHandler(this.bOrder_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Location = new System.Drawing.Point(311, 126);
+            this.pictureBox2.Location = new System.Drawing.Point(62, 170);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(317, 220);
+            this.pictureBox2.Size = new System.Drawing.Size(160, 160);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -246,7 +246,7 @@
             // 
             this.name.AutoSize = true;
             this.name.Font = new System.Drawing.Font("굴림", 18F);
-            this.name.Location = new System.Drawing.Point(439, 366);
+            this.name.Location = new System.Drawing.Point(263, 220);
             this.name.MaximumSize = new System.Drawing.Size(200, 30);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(69, 24);
@@ -258,7 +258,7 @@
             // 
             this.lowprice.AutoSize = true;
             this.lowprice.Font = new System.Drawing.Font("굴림", 13F);
-            this.lowprice.Location = new System.Drawing.Point(446, 426);
+            this.lowprice.Location = new System.Drawing.Point(264, 275);
             this.lowprice.Name = "lowprice";
             this.lowprice.Size = new System.Drawing.Size(54, 18);
             this.lowprice.TabIndex = 16;

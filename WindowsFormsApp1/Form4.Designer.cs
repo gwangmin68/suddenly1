@@ -140,7 +140,7 @@
             // 
             this.b_order.FlatAppearance.BorderSize = 0;
             this.b_order.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_order.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_order.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_order.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_order.Image = ((System.Drawing.Image)(resources.GetObject("b_order.Image")));
             this.b_order.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -155,7 +155,7 @@
             // 
             this.b_like.FlatAppearance.BorderSize = 0;
             this.b_like.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_like.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_like.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_like.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_like.Image = ((System.Drawing.Image)(resources.GetObject("b_like.Image")));
             this.b_like.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -171,7 +171,7 @@
             // 
             this.b_cart.FlatAppearance.BorderSize = 0;
             this.b_cart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_cart.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_cart.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_cart.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_cart.Image = ((System.Drawing.Image)(resources.GetObject("b_cart.Image")));
             this.b_cart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -186,7 +186,7 @@
             // 
             this.b_list.FlatAppearance.BorderSize = 0;
             this.b_list.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_list.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_list.Font = new System.Drawing.Font("Bebas Neue", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_list.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.b_list.Image = ((System.Drawing.Image)(resources.GetObject("b_list.Image")));
             this.b_list.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -217,31 +217,41 @@
             // 
             // checkedListBox1
             // 
-            this.checkedListBox1.Font = new System.Drawing.Font("굴림", 14F);
+            this.checkedListBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox1.Font = new System.Drawing.Font("나눔스퀘어OTF", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(102, 210);
+            this.checkedListBox1.Location = new System.Drawing.Point(92, 208);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(613, 292);
+            this.checkedListBox1.Size = new System.Drawing.Size(613, 312);
             this.checkedListBox1.TabIndex = 12;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(762, 461);
+            this.button2.BackColor = System.Drawing.Color.RosyBrown;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("나눔스퀘어OTF", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.Location = new System.Drawing.Point(753, 489);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 41);
+            this.button2.Size = new System.Drawing.Size(88, 31);
             this.button2.TabIndex = 13;
             this.button2.Text = "구매취소";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(762, 402);
+            this.button3.BackColor = System.Drawing.Color.RosyBrown;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("나눔스퀘어OTF", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button3.Location = new System.Drawing.Point(753, 428);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 41);
+            this.button3.Size = new System.Drawing.Size(88, 31);
             this.button3.TabIndex = 13;
             this.button3.Text = "배송조회";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // Form4
             // 
