@@ -278,8 +278,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximumSize = new System.Drawing.Size(936, 589);
-            this.MinimumSize = new System.Drawing.Size(438, 435);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximumSize = new System.Drawing.Size(500, 544);
+            this.MinimumSize = new System.Drawing.Size(500, 544);
             this.Name = "Form2";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
