@@ -269,7 +269,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(936, 589);
+            this.ClientSize = new System.Drawing.Size(936, 604);
             this.Controls.Add(this.lowprice);
             this.Controls.Add(this.name);
             this.Controls.Add(this.pictureBox2);
@@ -279,8 +279,8 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.MaximumSize = new System.Drawing.Size(500, 544);
-            this.MinimumSize = new System.Drawing.Size(500, 544);
+            this.MaximumSize = new System.Drawing.Size(936, 604);
+            this.MinimumSize = new System.Drawing.Size(936, 604);
             this.Name = "Form2";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);

@@ -72,6 +72,7 @@ namespace WindowsFormsApp1
             }
             sw.Close();
             MessageBox.Show("주문목록에 추가되었습니다.");
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)

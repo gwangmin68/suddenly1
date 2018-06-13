@@ -231,5 +231,11 @@ namespace WindowsFormsApp1
         {
             new Form4().ShowDialog();
         }
+
+        private void b_like_Click(object sender, EventArgs e)
+        {
+
+            MessageBox.Show("여러분 사랑해요!");
+        }
     }
 }

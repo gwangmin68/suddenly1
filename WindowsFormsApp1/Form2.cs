@@ -111,7 +111,11 @@ namespace WindowsFormsApp1
 
         private void bOrder_Click(object sender, EventArgs e)
         {
-            
+            StreamWriter sw = new StreamWriter(@".\List.txt", true);
+            sw.WriteLine($"<data>{name.Text}x1</data>");
+            sw.Close();
+            MessageBox.Show("성공적으로 등록되었습니다.");
+            this.Close();
         }
     }
 }

@@ -28,11 +28,10 @@ namespace WindowsFormsApp1
                 new System.IO.StreamReader(@".\List.txt");
             while ((line = file.ReadLine()) != null)
             {
-                MessageBox.Show(line);
                 line = line.Substring(6, line.Length - 13);
-                listView1.Items.Add(line);
+                checkedListBox1.Items.Add(line);
             }
-
+            
             file.Close();
 
         }
@@ -47,26 +46,36 @@ namespace WindowsFormsApp1
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
 
-            List<ListViewItem> list = new List<ListViewItem>();
-            foreach (ListViewItem items in listView1.CheckedItems)
+            List<string> list = new List<string>();
+            foreach (string items in checkedListBox1.CheckedItems)
             {
                 list.Add(items);
             }
-            foreach (ListViewItem i in list)
+            foreach (string i in list)
             {
-                listView1.Items.Remove(i);
+                checkedListBox1.Items.Remove(i);
 
             }
             StreamWriter sw = new StreamWriter(@".\List.txt", false);
-            foreach (ListViewItem item in listView1.Items)
+            foreach (string item in checkedListBox1.Items)
             {
-                sw.WriteLine($"<data>{item.Text}</data>");
+                sw.WriteLine($"<data>{item}</data>");
             }
             sw.Close();
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void b_like_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("여러분 사랑해요!");
         }
     }
 }
